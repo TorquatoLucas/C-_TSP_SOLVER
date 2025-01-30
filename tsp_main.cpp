@@ -245,6 +245,10 @@ int main() {
     // Seed
     unsigned semente = static_cast<unsigned>(time(nullptr));
 
+    // Recebe o nome do arquivo de saída
+    string arquivo;
+    getline(cin, arquivo);
+
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     
@@ -282,7 +286,7 @@ int main() {
     cout << "Semente usada: " << semente << endl;
 
     // Grava o resultado em um arquivo
-    ofstream output("formato.txt");
+    ofstream output(arquivo);
     if(output.is_open()) {
         // Remove o último elemento se for igual ao primeiro (ciclo)
         if(!caminho.empty() && caminho.back() == caminho.front()) {
