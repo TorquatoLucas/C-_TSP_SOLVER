@@ -114,7 +114,7 @@ vector<int> otimizar_two_opt(const vector<int>& caminho, const vector<No>& nos, 
     int n = novo_caminho.size() - 1; // Ignora o último nó que é igual ao primeiro
     int iteracao = 0;
     
-    // Executa enquanto houver melhorias ou o número máximo de iterações (50) não for alcançado
+    // Executa enquanto houver melhorias ou o número máximo de iterações (100) não for alcançado
     while (melhoria && iteracao < max_iteracoes) {
         melhoria = false;
         iteracao++;
