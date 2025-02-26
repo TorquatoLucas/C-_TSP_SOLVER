@@ -10,6 +10,13 @@ Objetivos:
 ✅ Minimizar a distância máxima entre pontos consecutivos  
 ✅ Reduzir o custo total do percurso
 
+Melhorias pendentes:
+❌ Trocar o algoritmo que encontra o caminho mais curto para um mais coerente
+❌ Aumentar a eficiência
+
+## Conclusão
+Apesar do trabalho não ter atingido as expectativas, ele serviu como ótimo estudo e aprendizado na teoria de grafos e seus algoritmos
+
 ## Pré-requisitos
 - Compilador C++17 (ex: `g++`)
 
